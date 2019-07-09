@@ -1,0 +1,183 @@
+.header-image{
+    width: 75px;
+}
+header{
+display: flex;
+position: fixed;
+top: 0%;
+left: 0%;
+right: 0%;
+height: 49px;
+line-height: 20px;
+background-color: rgb(229, 240, 131);
+border: 1px solid rgba(47, 45, 45, 0.644);
+}
+
+header *{
+    display: inline;
+
+}
+header li{
+    margin-left: 200px;     
+
+}
+header a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+
+}
+
+
+header a:hover {
+    width: 100px;
+    height: 100px;
+    color:yellow;
+    background: rgb(250, 60, 60);
+box-shadow: 20px rgb(24, 11, 1);
+border: solid 5px rosybrown;
+
+  }
+
+
+#content{
+        display: flex;
+    position: fixed;
+    top: 35.5%;
+    left: 0%;
+    right: 85%;
+    height: 380px;
+    line-height: 50px;
+    background-color:rgba(231, 207, 224, 0.808); 
+    border:solid rgb(17, 17, 17) 1px;
+  
+}
+#panner {
+    display: flex;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-emphasis: none;
+    font-style: italic;
+    justify-content: center;
+    position: fixed;
+    top: 7.5%;
+    left: 0%;
+    right: 0%;
+    height: 183px;
+    line-height: 50px;     
+    background-image: linear-gradient(rgba(175, 149, 149, 0.685),rgba(246, 231, 147, 0.356)), url(../img/6998.jpg);
+    text-shadow: 2px 10px chartreuse;
+    box-shadow: 10px 10px 5px grey;
+
+}
+#content{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    display: flex;
+    justify-content: left;
+    line-height: 80px;    
+    text-emphasis: none;
+    text-decoration: none;
+    top: 235px;
+    border-radius: 55px 55px 5px 5px ;
+    box-shadow: 5px 5px gray;
+    left: 1px;
+    background-image: linear-gradient(rgba(175, 149, 149, 0.685),rgba(246, 231, 147, 0.356)), url(../img/6998.jpg);
+
+}
+* {box-sizing: border-box}
+
+.tab {
+  float: right;
+  background-color:transparent;
+  width: 80%;
+  height: 350px;
+  font-size: 50px;
+
+
+}
+.tab button {
+  display: block;
+  background-color: transparent;
+  color: black;
+  padding:50px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  justify-content: center;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.tab button:hover {
+  background-color: rgb(179, 10, 10);
+  border-radius: 55px 55px;
+  text-decoration: none;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  float: left;
+  padding: 0px 20px;
+  border: 1px solid #ccc;
+  width: 70%;
+  font-size: 50%;
+  height: 350px;
+
+}
+
+section img{
+    width: 180px;
+}
+
+
+#topics{
+display: flex;
+position: center;
+top: 35.6% ;
+left: 15.5%;
+right: 0%;
+height: 380px;
+line-height: 50px;
+background-color: rgb(241, 217, 182);
+border:solid rgb(17, 17, 17) 1px;
+border-radius: 55px 5px 55px 5px;
+box-shadow: 10px 8px gray;
+display: flex;
+font-size: 25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+text-emphasis: none;
+font-style: italic;
+justify-content: center;
+position: fixed;
+padding: 50px;
+background-image: linear-gradient(rgba(175, 149, 149, 0.685),rgba(246, 231, 147, 0.356)), url(../img/hd14233_2050dec31_world_lion-king-jungle-festival-key-visual_5-2.jpg);
+
+}
+
+
+
+#copyrighth{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    justify-content: center;
+    position: fixed;
+    top: 90%;
+    left: 0%;
+    right: 0%;
+    height: 183px;
+    line-height: 50px;  }
