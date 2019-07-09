@@ -101,7 +101,6 @@ border: solid 5px rosybrown;
 
 }
 .tab button {
-  display: block;
   background-color: transparent;
   color: black;
   padding:50px 16px;
@@ -142,8 +141,7 @@ section img{
 
 
 #topics{
-display: flex;
-position: center;
+
 top: 35.6% ;
 left: 15.5%;
 right: 0%;
