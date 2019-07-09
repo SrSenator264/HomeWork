@@ -42,13 +42,10 @@ border: solid 5px rosybrown;
 
 
 #content{
-        display: flex;
     position: fixed;
     top: 35.5%;
-    left: 0%;
     right: 85%;
     height: 380px;
-    line-height: 50px;
     background-color:rgba(231, 207, 224, 0.808); 
     border:solid rgb(17, 17, 17) 1px;
   
